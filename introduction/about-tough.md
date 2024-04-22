@@ -1,0 +1,5 @@
+# About TOUGH
+
+TOUGH  (“**T**ransport **O**f **U**nsaturated **G**roundwater and **H**eat”)  is a general-purpose numerical simulator for multi-dimensional fluid and heat flows of multiphase, multicomponent fluid mixtures in porous and fractured media. Developed at the Lawrence Berkeley National Laboratory (LBNL) in the early 1980s primarily for geothermal reservoir engineering, the simulator is now widely used at universities, government organizations, and private industry for applications to nuclear waste disposal, environmental remediation problems, energy production from geothermal, oil and gas reservoirs as well as gas hydrate deposits, geological carbon sequestration, subsurface gas/energy storage, vadose zone hydrology, and other uses that involve coupled thermal, hydrological, geochemical, and mechanical processes in permeable media.&#x20;
+
+TOUGH4 is the new generation of TOUGH developed in 2022-2024.  It re-engineers and expands the previous version of TOUGH into a more general simulator.

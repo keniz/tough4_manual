@@ -1,0 +1,3 @@
+# Inputs for Initial Conditions&#x20;
+
+Input of initial conditions are through keywords “INCON”, “INDOM” or “PARAM” at record PARAM.4. Users can also provide initial conditions through the file “INCON”. TOUGH4 may allow different parameters as the initial conditions. No matter which set of parameters are used as the initial conditions, they must be consistent for the inputs with different keywords or the input file. Default initial conditions are always the primary variables. The initial conditions of different EOS modules are summarized below. The maximum number of tracers or salts is 5. The following discussion covers a smaller number of tracers or salts, but it applies to any number of them.

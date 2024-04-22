@@ -1,0 +1,21 @@
+# Dirichlet Boundary Conditions
+
+Dirichlet conditions prescribe fixed thermodynamic conditions, such as pressure, temperature, or saturation. Dirichlet conditions can be implemented by assigning very large volumes (e.g., _V_ = $$10^{50}$$ $$m^3$$) to grid blocks adjacent to the boundary, so that their thermodynamic conditions do not change at all from fluid or heat exchange with finite-size blocks in the flow domain. For those elements with very large volumes, no mass or energy balance equations are set up, and their primary thermodynamic variables are not included in the list of unknowns. In addition, a small value (such as _D_ = $$10^{-9}$$m) should be specified for the nodal distance of such blocks, so that boundary conditions are in fact maintained in close proximity to the surface where they are desired, and not at some distance from it.&#x20;
+
+The Dirichlet conditions for each element can also be specified through the last parameter (named "Activity") of input record [**ELEME.1**](../../preparation-of-model-input/keywords-and-input-data/eleme.md) or MESH file.  "Activity" is element activity indicator. It can be “A”-active element, “I”-inactive element, “V”-time-dependent first-type boundary element, and  “T”-constant temperature element. In addition, an element with a zero or negative volume is used to indicate that the element and all subsequent elements are to be used for Dirichlet boundary conditions. The code will internally assign a very large volume for this element and all subsequent elements (to be backward compatible with TOUGH2) and print out a warning message.  In TOUGH4, the user must specify a material name or material number for every element.
+
+Time-dependent Dirichlet conditions can be implemented using two different approaches. The first method consists of placing appropriate, large sinks or sources in boundary elements with large volumes (Moridis and Pruess, 1992). As an example, consider a laboratory experiment reported by Kruger and Ramey (1974) that involved flashing (vaporizing) flow from a sandstone core, with a time-dependent gas pressure boundary condition
+
+&#x20;$$P_b=P_0+P_1t+P_2t^2$$                                                                                       (5-12)                                                                            &#x20;
+
+maintained at the outflow end. According to the ideal gas law, the pressure behavior of Eq. (5-12) can be associated with a time-dependent gas inventory of mass $$M_b$$ in a volume _V_ as follows.
+
+&#x20;$$M_b=P_b(mV/RT)$$                                                                                           (5-13) &#x20;
+
+where _m_ is the molar weight of the gas, _R_ the universal gas constant, and _T_ absolute temperature. The required time dependence of $$M_b$$ can be realized by means of a sink/source rate of
+
+&#x20;$$Q_b=dM_b/dt=\left(\frac{mV}{RT}\right)dP_b/dt=\left(\frac{mV}{RT}\right)\left(P_1+2P_2t\right)$$                                   (5-14)
+
+&#x20;Therefore, the desired boundary condition can be implemented by means of a grid block with volume _V_ that is initialized in single-phase gas (e.g., air) conditions, with pressure _P0_, and with a time-dependent sink/source term given by Eq. (5-14) that would be specified through tabular generation data in data block GENER. In order for the pressure conditions in this block to be negligibly affected by heat and mass exchange with the flow domain, the volume _V_ should be made very large, e.g., _V_ = $$10^{50}$$ $$m^3$$, just as for time-independent Dirichlet boundary conditions. The time-dependent generation rates from Eq. (5-14) will then also be very large. The same approach as just outlined for a time-dependent gas pressure boundary can be used to realize other time-dependent Dirichlet conditions, such as prescribed temporal variation of temperature, capillary pressure, and others.
+
+The second, users can use "[TIMBC](../../preparation-of-model-input/keywords-and-input-data/timbc.md)" keyword to realize time-dependent Dirichlet boundary conditions by reading a set of time and primary variable data at boundary elements from the main input file or a data file named "timvsp.dat". Boundary values will be linearly interpolated between table entries. The volume for these elements should be made very large as well.
