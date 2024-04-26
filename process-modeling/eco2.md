@@ -8,7 +8,7 @@ ECO2 can model the same fluid components (water, NaCl, and CO2) as modeled by TO
 
 ECO2 can represent all of the phase conditions and transitions depicted in Figure 19. It may therefore be applied to flow systems that involve both sub- and supercritical temperature and pressure conditions, as well as transitions between them. ECO2 also provides an option by treating the liquid and gas CO2 as a single phase to simplify the simulation (equivalent to TOUGH3/ECO2N).&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="296"><figcaption><p>Figure 19. Possible fluid phase combinations in the system water-CO2, and transitions between them in the P-T range of ECO2. The phase designations are a - aqueous, l - liquid CO2, g - gaseous CO2. Separate liquid and gas phases of CO2 exist only at subcritical conditions. Phase combinations are identified by a numerical index that ranges from 1 to 7.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt="" width="296"><figcaption><p>Figure 19. Possible fluid phase combinations in the system water-CO2, and transitions between them in the P-T range of ECO2. The phase designations are a - aqueous, l - liquid CO2, g - gaseous CO2. Separate liquid and gas phases of CO2 exist only at subcritical conditions. Phase combinations are identified by a numerical index that ranges from 1 to 7.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (35).png" alt="" width="425"><figcaption><p>Figure 20. Phase states of CO2</p></figcaption></figure>
 
