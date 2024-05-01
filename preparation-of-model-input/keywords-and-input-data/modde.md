@@ -10,7 +10,7 @@ Record **MODDE.1**
 
 _ModuleNam_   name of the EOS module will be run.
 
-_InitCType_       the type of initial conditions. If not present, default type will be used. See Section "[Input for Initial Conduitions](../inputs-for-initial-conditions/)" for the initial condition type definition.
+_InitCType_       the type of initial conditions. If not present, default type will be used. See Section "[Input for Initial Conduitions](../inputs-for-initial-conditions/)" for the initial condition type definition. If the default type initial condition is used, users may input "2LINES", "3LINES", or  "4LINES" as the type indicating the initial conditions for each element will be read in 2 or 3 lines. &#x20;
 
 _EoSTypeS_      selection of the cubic EOS equation: PR, RK, or SRK, default is PR (for EOS7 and EWASG only).            &#x20;
 
