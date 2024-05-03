@@ -22,7 +22,7 @@ $$\dfrac{k}{k_0}=f(\dfrac{\phi_f}{\phi} )\equiv f(1-S_s)$$                      
 
 The simplest model that can capture the converging-diverging nature of natural pore channels consists of alternating segments of capillary tubes with larger and smaller radii, respectively; see Figure 21. While in straight capillary tube models' permeability remains finite as long as porosity is non-zero, in models of tubes with different radii in series, permeability is reduced to zero at a finite porosity.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption><p>Figure 21. Model for converging-diverging pore channels</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt="" width="563"><figcaption><p>Figure 21. Model for converging-diverging pore channels</p></figcaption></figure>
 
 From the tubes-in-series model shown in Figure 1, the following relationship can be derived (Verma and Pruess, 1988)
 
@@ -38,7 +38,7 @@ $$\omega=1+\dfrac{1/\Gamma}{1/\phi_r-1}$$                                       
 
 Therefore, Eq. (7-26) has only two independent geometric parameters that need to be specified,  $$\phi_r$$ and $$\Gamma$$. As an example, Figure 22 shows the permeability reduction factor from Eq. (7-26), plotted against $$\phi /\phi_0 \equiv (1-S_s)$$ , for parameters of $$\phi _r=\Gamma=0.8$$.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt="" width="440"><figcaption><p>Figure 22.  Porosity-permeability relationship for tubes-in-series model after Verma and Pruess (1988)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt="" width="440"><figcaption><p>Figure 22.  Porosity-permeability relationship for tubes-in-series model after Verma and Pruess (1988)</p></figcaption></figure>
 
 For parallel-plate fracture segments of different aperture in series, a relationship similar to Eq. (7-26) is obtained, the only difference being that the exponent 2 is replaced everywhere by 3 (Verma and Pruess, 1988). If only straight capillary tubes of uniform radius are considered, we have $$\phi _r=0$$, $$\Gamma=0$$, and Eq. (7-26) simplifies to
 

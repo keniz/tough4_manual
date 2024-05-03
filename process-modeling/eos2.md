@@ -8,7 +8,7 @@ This fluid property module originally was developed by O'Sullivan et al. (1985) 
 
 The Henry’s law coefficient $$K_h$$ for dissolution of CO2 in water is strongly dependent on temperature. The correlation used in the previous release of EOS2 had been developed by O’Sullivan et al. (1985) for the elevated temperature conditions encountered in geothermal reservoirs. It is accurate to within a few percent of experimental data in the temperature range of 40 ˚C ≤ _T_ ≤ 330 ˚C, but becomes rather inaccurate at lower temperatures and even goes to negative values for _T_ < 30 ˚C (see Figure 15). Since TOUGH3, the Henry’s law coefficient calculation was updated with the correlation developed by Battistelli et al. (1997), which is accurate for 0 ˚C ≤ _T_ ≤ 350 ˚C. The Battistelli et al. formulation agrees well with another correlation that was developed by S. White (1996, private communication).
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Figure 15.  Henry’s law coefficients for dissolution of CO2 in water.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figure 15.  Henry’s law coefficients for dissolution of CO2 in water.</p></figcaption></figure>
 
 The viscosity of vapor - CO2 mixtures is described with a formulation due to Pritchett et al. (1981); other thermophysical property correlations are based on the model of Sutton and McNabb (1977).
 

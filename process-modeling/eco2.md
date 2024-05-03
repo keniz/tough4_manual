@@ -10,7 +10,7 @@ ECO2 can represent all of the phase conditions and transitions depicted in Figur
 
 <figure><img src="../.gitbook/assets/image (6).png" alt="" width="296"><figcaption><p>Figure 19. Possible fluid phase combinations in the system water-CO2, and transitions between them in the P-T range of ECO2. The phase designations are a - aqueous, l - liquid CO2, g - gaseous CO2. Separate liquid and gas phases of CO2 exist only at subcritical conditions. Phase combinations are identified by a numerical index that ranges from 1 to 7.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (35).png" alt="" width="425"><figcaption><p>Figure 20. Phase states of CO2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt="" width="425"><figcaption><p>Figure 20. Phase states of CO2</p></figcaption></figure>
 
 ECO2 inherits all the functionalities in handling phase transitions, treatment of dissolved and solid salts, partitioning of fluid components among phases, and calculation of fluid thermophysical properties, and impact of permeability by precipitation and dissolution.  If there is any conflict of functionalities among these modules, the approaches in ECO2N V2 are adopted, or the program provides an option for user to choose.  Any calculations involved in three-phase simulation will use the approaches provided by ECO2M. Details can be found in the user manual of the previous three EOS modules:
 

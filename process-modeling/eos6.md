@@ -36,15 +36,15 @@ EOS6 simulation requires definition of the gas component through input keyword "
 
 (2). Use the pull-down menu (item 1) to select the gas species; choose the units that are used in TOUGH4 simulation (see Figure 16).
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figure 16. Interface for download the gas thermophysical properties and selection of the units</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figure 16. Interface for download the gas thermophysical properties and selection of the units</p></figcaption></figure>
 
 (3). Decide the range of temperature and pressure to be included in database of the gas properties (see Figure 17）. The range must fully cover the pressure and temperature of the models that you are going to run. The gas properties to be downloaded is for a constant temperature at each time. The pressure increment must be reasonable. If it is too large, the interpolation results may have bad accuracy. If it is too small, the data file will be very large and the interpolation will be less efficient. Several hundred points may be appropriate for each temperature.  Download the lowest temperature first.&#x20;
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Figure 17. Define temperature and pressure range for gas thermophysical property data download</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Figure 17. Define temperature and pressure range for gas thermophysical property data download</p></figcaption></figure>
 
 (4). Download the data file as a tab-delimited text file (see Figure 18). The data file may be named as "5.dat" for the file at temperature 5 $$^oC$$. The pressure increment can be different at different pressure ranges. This can be done by downloading multiple times for the same temperature, each time covering a different range of pressure with different increment. Combine the multiple downloaded files into a single file in the sequence of increasing pressure. The first two lines (headers and units) in the downloaded files must be deleted except the first file.&#x20;
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Figure 18. Thermophysical property data for the selected gas at given temperature </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Figure 18. Thermophysical property data for the selected gas at given temperature </p></figcaption></figure>
 
 (5). Repeat step (3) and (4) to download the data file for different temperatures, e.g. for temperature=8, 11, 14, ...., 150 $$^oC$$, get files 8.dat, 11.dat, 14.dat, ......, 150.dat. The increment of temperature can be different. Combine the downloaded files into a single file "gas\_properties.dat" in the sequence of increasing temperature.  The first two lines (headers and units) in the downloaded files must be deleted except the first file.
 

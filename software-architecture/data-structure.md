@@ -4,7 +4,7 @@ In TOUGH4, many procedures and functions with data encapsulation are designed as
 
 Modules are also used to group data with common purpose together.  User defined structures or derived data types are widely used to store a group of related data. For example, all the rock related parameters are grouped into a data type PFMedium, all source/sink related parameters are grouped into a data type SourceSink, all secondary parameters are grouped into a data type Second\_Variable, and many other data. Figure 12 shows the definition of Second\_Variable.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figure 12. An example of derived data type-the derived data type for secondary variables</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Figure 12. An example of derived data type-the derived data type for secondary variables</p></figcaption></figure>
 
 Adoption of Second\_Variable data type makes the codes get rid of the complex array indexing for PAR used in previous version. The use of derived data type helps the management of program data and improves readability of the source codes.&#x20;
 

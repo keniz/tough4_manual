@@ -4,7 +4,7 @@ TOUGH4 allows adjustment of several key computing parameters or temporary monito
 
 The parameter changes or giving an element or connection name for monitoring are through a text file named "Parameter\_Update\_File". Figure 29 shows the contents of this file.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 29. Contents of File "Parameter_Update_File" for computing parameter adjustment or monitoring at run-time</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figure 29. Contents of File "Parameter_Update_File" for computing parameter adjustment or monitoring at run-time</p></figcaption></figure>
 
 A template of this file was included in the software distribution package. Users need copy it to the working folder where the model input files are located. TOUGH4 will scan this file during run-time for every given time-steps (scan frequency). If it was changed, the new parameters will be read and replace the model input values. Only the file updated after the start of running simulation will take effect.   Users may adjust the parameters multiple times in one simulation run.  If a parameter does not change, one may leave the input parameter empty.  As these computing parameters are sensitive to the simulation performance, an error value may lead to unpredictable model running behavior. Users should make the parameter adjustments carefully. &#x20;
 

@@ -2,11 +2,11 @@
 
 TOUGH4 allows flexible formatting for the input files. The input can be in free format or in a file format that is fully backward compatible with the format of TOUGH3. It automatically recognizes the format of TOUGH3 or the new free format. For most case, the input file of TOUGH3 can be directly used. In some modules the sequence of mass components may not be consistent in both versions, e.g. CO2 is COM3 in TOUGH3/ECO2N, but it is COM2 in TOUGH4/ECO2. The inconsistency requires the modification of input for keyword GENER.  TOUGH4 allows the input data in free format with comma or semicolon as a “separator”. For example, inputs using the two formats as shown in Figure 25 are equivalent for TOUGH4.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Figure 25. Formats for the input of TOUGH4</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Figure 25. Formats for the input of TOUGH4</p></figcaption></figure>
 
 Users can use the old format or new style for different lines in the same input file. TOUGH4 will automatically identify the text lines with new style input. The TOUGH4 also allows input of the TOUGH3 multiple line inputs for a parameter series in one line (as more as 20 data). The two formats shown in Figure 26 are equivalent for TOUGH4.&#x20;
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Figure 26. The two formats are equivalent for the TOUGH4</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 26. The two formats are equivalent for the TOUGH4</p></figcaption></figure>
 
 In the input file, the “//” or “!” can be placed at any locations for indicating the starting of comments. The comments are for information only and neglected by the program. Another new feature for TOUGH4 input is _x\*n_ representing repeat input x (must be integer or real/double datum) _n_ times, e.g. the last row of the input in Figure 26 can also be written as:&#x20;
 

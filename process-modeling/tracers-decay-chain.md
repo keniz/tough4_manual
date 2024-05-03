@@ -14,7 +14,7 @@ $$T_{1/2}=\dfrac{ln 2}{\lambda_k}$$                                             
 
 Radionuclide _k-1_ is the "parent" of radionuclide _k._ $$\alpha_{k-1}$$is the fraction of radionuclide _k-1_ turning into "daughter" _k._ The equation (7-30) allows including multiple "parents" by adding contributions from other "parents" to the right-hand side of the equation. These types of relations are popular in VOC degradation processes, such as the TCE degradation (Figure 23) in which TCE has three "daughter" species, and VC has three "parent" species。&#x20;
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Figure 24. TCE degradation pathway</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figure 24. TCE degradation pathway</p></figcaption></figure>
 
 Adsorption of tracers/radionuclides on the solid grains is modeled as reversible instantaneous linear sorption, so that mass of tracer component _k_ per unit reservoir volume is given by
 

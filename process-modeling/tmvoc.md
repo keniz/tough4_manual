@@ -10,7 +10,7 @@ TMVOC allows flow system in any one of the three phases (Gas, aqueous, oil/NAPL 
 
 Depending on thermodynamic conditions and relative abundance of the different components, the fluids may exist in seven different phase combinations, as shown in Figure 23. Arrows denote routes for appearance or disappearance of phases that are checked after each update of thermodynamic conditions during the Newton-Raphson iteration process.&#x20;
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Figure 23. Phase compositions and phase changes considered by TMVOC. The phase designations are: g - gas, w - aqueous, n - NAPL</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p>Figure 23. Phase compositions and phase changes considered by TMVOC. The phase designations are: g - gas, w - aqueous, n - NAPL</p></figcaption></figure>
 
 Details for assumptions, physical processes, fluid properties, and phase partitioning for TMVOC module can be found in the original [TMVOC user manual](https://tough.lbl.gov/assets/files/Tough3/TMVOC\_Users\_Guide.pdf).&#x20;
 
