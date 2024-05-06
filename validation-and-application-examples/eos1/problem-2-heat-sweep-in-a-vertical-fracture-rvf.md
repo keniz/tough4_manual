@@ -2,7 +2,7 @@
 
 The present problem is designed to study thermal interference along preferential flow paths (fractures), by modeling nonisothermal injection into and production from a single vertical fracture, as illustrated in Figure 10-1 (from Pruess and Bodvarsson, 1984). The fracture is bounded by semi-infinite half-spaces of impermeable rock, which provide a conductive heat supply. Initial temperature is 300 ˚C throughout. Water at 100 ˚C temperature is injected at one side of the fracture at a constant rate of 4 kg/s, while production occurs at the other side against a specified wellbore pressure.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 10-1 Schematic diagram of injection-production system in vertical fracture. Injection occurs at I, production at P.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 10-1 Schematic diagram of injection-production system in vertical fracture. Injection occurs at I, production at P.</p></figcaption></figure>
 
 Details of this example can be found in [EOS1 manual](https://drive.google.com/file/d/19jQ5UnMi8XPlm6PZp59NQr2p6D8Y55DZ/view?usp=drive\_link), sample 2 (rvf).
 
