@@ -14,8 +14,8 @@ The simulations were run in effective porous medium and MINC conceptual model. D
 
 Followings are the simulation input files and output files:
 
-Effective porous medium model:      [Input files](https://drive.google.com/file/d/1XRHBtvgnDu5ycA\_BeeU9qX97pIUKftch/view?usp=sharing)          [output files](https://drive.google.com/file/d/1EzlsZxIqvg0RK\_\_N5OBuHxvzSR5ABcXm/view?usp=sharing)
+**Effective porous medium model:**     [Input files](https://drive.google.com/file/d/1XRHBtvgnDu5ycA\_BeeU9qX97pIUKftch/view?usp=sharing)          [output files](https://drive.google.com/file/d/1EzlsZxIqvg0RK\_\_N5OBuHxvzSR5ABcXm/view?usp=sharing)
 
-MINC model:                                          [Input files](https://drive.google.com/file/d/1UW1FUuA-TRDOkAiOM\_y1rAl2uHyusKYJ/view?usp=sharing)          [output files](https://drive.google.com/file/d/1ISTf\_l2gxYlNadpoVsdw2IXKyqZaBzyJ/view?usp=sharing)       &#x20;
+**MINC model:**                                       [Input files](https://drive.google.com/file/d/1UW1FUuA-TRDOkAiOM\_y1rAl2uHyusKYJ/view?usp=sharing)          [output files](https://drive.google.com/file/d/1ISTf\_l2gxYlNadpoVsdw2IXKyqZaBzyJ/view?usp=sharing)       &#x20;
 
-Tracer model:                                         [Input files](https://drive.google.com/file/d/1wpRGUy\_KDb9204pXThSpU6W5WLz2xb3Z/view?usp=sharing)          [output Files](https://drive.google.com/file/d/1xjLgXBawHJekuyvMH3TJ7Yw8epB5Oofk/view?usp=sharing)                         &#x20;
+**Tracer model:**                                        [Input files](https://drive.google.com/file/d/1wpRGUy\_KDb9204pXThSpU6W5WLz2xb3Z/view?usp=sharing)          [output Files](https://drive.google.com/file/d/1xjLgXBawHJekuyvMH3TJ7Yw8epB5Oofk/view?usp=sharing)                         &#x20;
