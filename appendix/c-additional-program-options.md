@@ -122,7 +122,9 @@ n (n>0):           Output mass balance for rock _n_ and the whole system.
 
 2:                     IAPWS-IF97 for T<800°C, IAPWS-95 for T≥800°C
 
+**IE(402)**           Selects air solubility calculation method
 
+0:                      solubility is a function of temperature
 
-
+1:                       solubility is independent of temperature (compatible with TOUGH3/EOS7 and TMVOC)
 
